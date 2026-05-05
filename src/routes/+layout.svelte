@@ -8,6 +8,6 @@
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 <ModeWatcher />
-<main class="flex h-screen flex-col items-center justify-center gap-6">
+<main class="flex h-screen flex-col items-center justify-center gap-6 text-center">
 	{@render children()}
 </main>
